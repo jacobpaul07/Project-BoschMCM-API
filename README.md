@@ -22,6 +22,11 @@ API Data format:
     "deviceName" : "TCPdevice01" 
 }
 
+Docker Image:
+  docker pull siqsessjacob/boschmcm_api
+
+Docker Run:
+  docker run -t -p 8000:8000 siqsessjacob/boschmcm_api
 
 Docker container ls:
   Format:

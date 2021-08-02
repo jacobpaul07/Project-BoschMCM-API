@@ -1,8 +1,5 @@
 import json
-
 from django.shortcuts import render
-
-# Create your views here.
 from rest_framework.views import APIView
 from django.http import HttpResponse
 from App.Json_Class import index as config, Edge, TCPdevice_dto
@@ -11,11 +8,10 @@ from App.Json_Class.TCPdevice_dto import TCPdevice
 
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.TCPReaders.modbus_tcp import modbus_tcp
-
-# from snippets.models import Snippet
-# from snippets.serializers import SnippetSerializer
 import App.globalsettings as appsetting
 
+
+# Create your views here.
 class ConfigIpChange(APIView):
 
     def post(self, request):
