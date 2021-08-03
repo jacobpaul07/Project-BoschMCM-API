@@ -58,6 +58,7 @@ def ReadTCP(SERVER_HOST, SERVER_PORT, tcpDevices: TCPdevice, tcpProperties: TCPP
         # define modbus server host, port
         c.host(SERVER_HOST)
         c.port(SERVER_PORT)
+
         scan_timeout = int(tcpProperties.TimeOutms) / 1000
         c.timeout(scan_timeout)
 
@@ -70,12 +71,24 @@ def ReadTCP(SERVER_HOST, SERVER_PORT, tcpDevices: TCPdevice, tcpProperties: TCPP
         try:
             if c.is_open():
                 # read 8 registers at address 0, store result in regs list
-                mulvalue = float(10 / 65535)
                 for tags in tcpDevices.IOTags:
                     registerValue = c.read_input_registers(int(tags.Address), 1)
+                    inputValue = float(registerValue[0])
+                    spanHigh = float(tags.SpanHigh)
+                    spanLow = float(tags.SpanLow)
+                    unitHigh = float(tags.UnitHigh)
+                    unitLow = float(tags.UnitLow)
+
+                    # Applying Formula
+                    regDiff = (inputValue - spanLow)
+                    spanDiff = (spanHigh - spanLow)
+                    unitDiff = (unitHigh - unitLow)
+                    diffCal = (regDiff/spanDiff)*unitDiff
+                    finalCal = unitLow + diffCal
+
                     data = {
                         "tagName": tags.Name,
-                        "value": round(registerValue[0] * mulvalue, 3)
+                        "value": round(finalCal, 3)
                     }
                     datasList.append(data)
 
