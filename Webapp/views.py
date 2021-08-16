@@ -5,7 +5,6 @@ from django.http import HttpResponse
 from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 from App.Json_Class.TCPdevice_dto import TCPdevice
-
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.TCPReaders.modbus_tcp import modbus_tcp
 import App.globalsettings as appsetting
@@ -60,3 +59,4 @@ class StopPpmpService(APIView):
         appsetting.startPpmpService = False
         start_ppmp_post()
         return HttpResponse('success', "application/json")
+
