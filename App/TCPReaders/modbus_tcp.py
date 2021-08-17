@@ -55,7 +55,7 @@ def log(result):
 
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
-    filepath = './App/log/{}.json'.format(filename)
+    filepath = './App/log/TCP/{}.json'.format(filename)
 
     a = []
     if not os.path.isfile(filepath):

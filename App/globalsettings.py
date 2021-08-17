@@ -1,6 +1,11 @@
 def init():
     global startPpmpService
-    startPpmpService= False
+    startPpmpService = False
 
     global startTcpService
     startTcpService = False
+
+    global startRtuService
+    startRtuService = False
+
+

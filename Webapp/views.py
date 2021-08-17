@@ -6,6 +6,7 @@ from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 from App.Json_Class.TCPdevice_dto import TCPdevice
 from App.PPMP.PPMP_Services import start_ppmp_post
+from App.RTUReaders.modbus_rtu import modbus_rtu
 from App.TCPReaders.modbus_tcp import modbus_tcp
 import App.globalsettings as appsetting
 
@@ -47,6 +48,20 @@ class StopTcpService(APIView):
         return HttpResponse('success', "application/json")
 
 
+class StartRtuService(APIView):
+    def post(self, request):
+        appsetting.startRtuService = True
+        modbus_rtu()
+        return HttpResponse('success', "application/json")
+
+
+class StopRtuService(APIView):
+    def post(self, request):
+        appsetting.startRtuService = False
+        modbus_rtu()
+        return HttpResponse('success', "application/json")
+
+
 class StartPpmpService(APIView):
     def post(self, request):
         appsetting.startPpmpService = True
@@ -59,4 +74,3 @@ class StopPpmpService(APIView):
         appsetting.startPpmpService = False
         start_ppmp_post()
         return HttpResponse('success', "application/json")
-
