@@ -13,6 +13,10 @@ API POST commands:
     $ curl --data "" http://127.0.0.1:8000/api/startppmp
   5. To STOP PPMP Service
     $ curl --data "" http://127.0.0.1:8000/api/stopppmp
+  6. To START ModbusRTU
+    $ curl --data "" http://127.0.0.1:8000/api/startrtu
+  7. To STOP ModbusRTU
+    $ curl --data "" http://127.0.0.1:8000/api/stoprtu
     
     
 API Data format:
