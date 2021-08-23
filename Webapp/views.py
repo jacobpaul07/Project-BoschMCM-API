@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 
+from App.Json_Class.COMProperties_dto import COMPORTProperties
 from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.RTUReaders.modbus_rtu import modbus_rtu
@@ -40,6 +41,7 @@ class StartTcpService(APIView):
     def post(self, request):
         appsetting.startTcpService = True
         modbus_tcp()
+
         return HttpResponse('success', "application/json")
 
 
@@ -48,6 +50,7 @@ class StopTcpService(APIView):
     def post(self, request):
         appsetting.startTcpService = False
         modbus_tcp()
+
         return HttpResponse('success', "application/json")
 
 
@@ -56,6 +59,7 @@ class StartRtuService(APIView):
     def post(self, request):
         appsetting.startRtuService = True
         modbus_rtu()
+
         return HttpResponse('success', "application/json")
 
 
@@ -64,6 +68,7 @@ class StopRtuService(APIView):
     def post(self, request):
         appsetting.startRtuService = False
         modbus_rtu()
+
         return HttpResponse('success', "application/json")
 
 
@@ -72,6 +77,7 @@ class StartPpmpService(APIView):
     def post(self, request):
         appsetting.startPpmpService = True
         start_ppmp_post()
+
         return HttpResponse('success', "application/json")
 
 
@@ -79,6 +85,7 @@ class StopPpmpService(APIView):
     def post(self, request):
         appsetting.startPpmpService = False
         start_ppmp_post()
+
         return HttpResponse('success', "application/json")
 
 
@@ -105,9 +112,43 @@ class ConfigGatewayProperties(APIView):
         return HttpResponse('success', "application/json")
 
 
+class ConfigDataCenterProperties(APIView):
+
+    def post(self, request):
+        data = request.body.decode("utf-8")
+        requestData = json.loads(data)
+        jsonData: Edge = config.read_setting()
+        edgeDeviceProperties = jsonData.edgedevice.DataCenter
+        for key in requestData:
+            if key == "DeviceSettings":
+                if requestData[key]["deviceType"] == "COM1":
+                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.COM1
+
+                elif requestData[key]["deviceType"] == "COM2":
+                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.COM2
+
+                elif requestData[key]["deviceType"] == "TCP":
+                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.TCP
+
+                for keys in requestData:
+                    value = requestData[keys]
+                    edgeDeviceProperties.properties.__setattr__(keys, value)
+                    if keys == "SerialPort Setting":
+                        for serialKey in requestData[keys]:
+                            serialValue = requestData[keys][serialKey]
+                            edgeDeviceProperties.properties.SerialPortSetting.__setattr__(serialKey, serialValue)
+
+        updated_json_data = jsonData.to_dict()
+        print(updated_json_data)
+        config.write_setting(updated_json_data)
+
+        return HttpResponse("Success", "application/json")
+
+
 class ReadDeviceSettings(APIView):
 
     def get(self, request):
         jsonData: Edge = config.read_setting()
         jsonResponse = json.dumps(jsonData.to_dict(), indent=4)
+
         return HttpResponse(jsonResponse, "application/json")

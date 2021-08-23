@@ -7,7 +7,7 @@
             "Identity": "S3-0001",
             "IP Address": "192.168.1.15",
             "Time Zone": "+05:30",
-            "Description": "Siqsesss Edge gateway Integrate with Bosch Nexeed Platform "
+            "Description": "Siqsess Edge gateway Integrate with Bosch Nexeed Platform "
         },
         "DataCenter": {
             "COM1": {
@@ -350,8 +350,8 @@
                 "properties": {
                     "Enable": "true",
                     "Type": "TCP",
-                    "Name": "TCPchannel1",
-                    "Description": "TCP Channel",
+                    "Name": "ADAM-6017",
+                    "Description": "TCP Channel-ADAM6017",
                     "Scan Time(ms)": "5000",
                     "Time Out(ms)": "3000",
                     "Retry Count": "3",

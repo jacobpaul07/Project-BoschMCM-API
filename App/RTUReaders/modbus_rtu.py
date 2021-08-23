@@ -30,7 +30,6 @@ def modbus_rtu():
         if comport.properties.Enable == "True":
             for dev in comport.devices:
                 if dev.properties.Enable == "True":
-
                     # Declaring Threading count and failed attempts object
                     threadsCount = {
                         "count": 0,
@@ -40,9 +39,7 @@ def modbus_rtu():
                     # Initializing Threading
                     thread = threading.Thread(
                         target=ReadRTU,
-                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack)
-
-                    )
+                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack))
 
                     # Starting the Thread
                     thread.start()
@@ -109,7 +106,7 @@ def threadCallBack(settings: SerialPortSettings,
         # Initializing Threading
         thread = threading.Thread(
             target=ReadRTU,
-            args=(settings, ComDevices,comProperties, threadsCount, threadCallBack)
+            args=(settings, ComDevices, comProperties, threadsCount, threadCallBack)
         )
 
         # Starting the Thread
@@ -118,4 +115,3 @@ def threadCallBack(settings: SerialPortSettings,
         # print("callback function called")
         # print("{}".format(threadsCount))
         # print(threading.get_ident())
-

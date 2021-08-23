@@ -19,14 +19,21 @@ from Webapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Read Edge Device Settings
     path('api/ReadDeviceSettings', views.ReadDeviceSettings().as_view()),
-    path('api/changetcpip', views.ConfigIpChange().as_view()),
+    # Change Edge Device Settings
     path('api/changeedgedeviceproperties', views.ConfigGatewayProperties().as_view()),
+    path('api/changeDataCenterProperties', views.ConfigDataCenterProperties().as_view()),
+    # TCP
     path('api/starttcp', views.StartTcpService().as_view()),
     path('api/stoptcp', views.StopTcpService().as_view()),
-    path('api/startppmp', views.StartPpmpService().as_view()),
-    path('api/stopppmp', views.StopPpmpService().as_view()),
+    # RTU
     path('api/startrtu', views.StartRtuService().as_view()),
     path('api/stoprtu', views.StopRtuService().as_view()),
+    # PPMP
+    path('api/startppmp', views.StartPpmpService().as_view()),
+    path('api/stopppmp', views.StopPpmpService().as_view()),
+
     # path('api/doLogin', LoginView.LoginViewAPI.as_view())
+    path('api/changetcpip', views.ConfigIpChange().as_view()),
 ]
