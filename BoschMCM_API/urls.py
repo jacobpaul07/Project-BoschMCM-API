@@ -19,6 +19,7 @@ from Webapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/ReadDeviceSettings', views.ReadDeviceSettings().as_view()),
     path('api/changetcpip', views.ConfigIpChange().as_view()),
     path('api/changeedgedeviceproperties', views.ConfigGatewayProperties().as_view()),
     path('api/starttcp', views.StartTcpService().as_view()),

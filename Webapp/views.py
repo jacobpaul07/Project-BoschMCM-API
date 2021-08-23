@@ -6,7 +6,6 @@ from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 
 from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
-from App.Json_Class.TCPdevice_dto import TCPdevice
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.RTUReaders.modbus_rtu import modbus_rtu
 from App.TCPReaders.modbus_tcp import modbus_tcp
@@ -104,3 +103,11 @@ class ConfigGatewayProperties(APIView):
         config.write_setting(updated_json_data)
 
         return HttpResponse('success', "application/json")
+
+
+class ReadDeviceSettings(APIView):
+
+    def get(self, request):
+        jsonData: Edge = config.read_setting()
+        jsonResponse = json.dumps(jsonData.to_dict(), indent=4)
+        return HttpResponse(jsonResponse, "application/json")

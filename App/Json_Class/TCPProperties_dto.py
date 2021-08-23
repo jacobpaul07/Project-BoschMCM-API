@@ -21,7 +21,7 @@ class TCPProperties:
         Name = from_str(obj.get("Name"))
         Description = from_str(obj.get("Description"))
         ScanTimems = from_str(obj.get("Scan Time(ms)"))
-        TimeOutms = from_str(obj.get("Time  Out(ms)"))
+        TimeOutms = from_str(obj.get("Time Out(ms)"))
         RetryCount = from_str(obj.get("Retry Count"))
         AutoRecoverTimes = from_str(obj.get("Auto Recover Time(s)"))
         return TCPProperties(Enable, Type, Name, Description, ScanTimems, TimeOutms, RetryCount, AutoRecoverTimes)
@@ -33,7 +33,7 @@ class TCPProperties:
         result["Name"] = from_str(self.Name)
         result["Description"] = from_str(self.Description)
         result["Scan Time(ms)"] = from_str(self.ScanTimems)
-        result["Time  Out(ms)"] = from_str(self.TimeOutms)
+        result["Time Out(ms)"] = from_str(self.TimeOutms)
         result["Retry Count"] = from_str(self.RetryCount)
         result["Auto Recover Time(s)"] = from_str(self.AutoRecoverTimes)
         return result
