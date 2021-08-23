@@ -20,6 +20,7 @@ from Webapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/changetcpip', views.ConfigIpChange().as_view()),
+    path('api/changeedgedeviceproperties', views.ConfigGatewayProperties().as_view()),
     path('api/starttcp', views.StartTcpService().as_view()),
     path('api/stoptcp', views.StopTcpService().as_view()),
     path('api/startppmp', views.StartPpmpService().as_view()),

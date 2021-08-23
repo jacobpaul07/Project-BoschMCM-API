@@ -1,11 +1,11 @@
 {
     "edge device": {
         "properties": {
-            "Name": "edge device",
-            "Mode1": "UNO-2271 Linux",
-            "Password": "*****",
+            "Name": "Edge Device 5",
+            "Mode1": "UNO-2271 Linux 5",
+            "Password": "123456",
             "Identity": "S3-0001",
-            "IP Address": "192.168.1.10",
+            "IP Address": "192.168.1.15",
             "Time Zone": "+05:30",
             "Description": "Siqsesss Edge gateway Integrate with Bosch Nexeed Platform "
         },

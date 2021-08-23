@@ -4,6 +4,8 @@ from rest_framework.views import APIView
 from django.http import HttpResponse
 from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
+
+from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
 from App.Json_Class.TCPdevice_dto import TCPdevice
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.RTUReaders.modbus_rtu import modbus_rtu
@@ -35,6 +37,7 @@ class ConfigIpChange(APIView):
 
 
 class StartTcpService(APIView):
+
     def post(self, request):
         appsetting.startTcpService = True
         modbus_tcp()
@@ -42,6 +45,7 @@ class StartTcpService(APIView):
 
 
 class StopTcpService(APIView):
+
     def post(self, request):
         appsetting.startTcpService = False
         modbus_tcp()
@@ -49,6 +53,7 @@ class StopTcpService(APIView):
 
 
 class StartRtuService(APIView):
+
     def post(self, request):
         appsetting.startRtuService = True
         modbus_rtu()
@@ -56,6 +61,7 @@ class StartRtuService(APIView):
 
 
 class StopRtuService(APIView):
+
     def post(self, request):
         appsetting.startRtuService = False
         modbus_rtu()
@@ -63,6 +69,7 @@ class StopRtuService(APIView):
 
 
 class StartPpmpService(APIView):
+
     def post(self, request):
         appsetting.startPpmpService = True
         start_ppmp_post()
@@ -73,4 +80,27 @@ class StopPpmpService(APIView):
     def post(self, request):
         appsetting.startPpmpService = False
         start_ppmp_post()
+        return HttpResponse('success', "application/json")
+
+
+class ConfigGatewayProperties(APIView):
+
+    def post(self, request):
+        data = request.body.decode("UTF-8")
+        requestData = json.loads(data)
+        jsonData: Edge = config.read_setting()
+
+        edgeDeviceProperties = jsonData.edgedevice.properties.to_dict()
+        for key in requestData:
+            value = requestData[key]
+            for objectKey in edgeDeviceProperties:
+                # for device_key in properties:
+                if objectKey == key:
+                    edgeDeviceProperties[key] = value
+
+        jsonData.edgedevice.properties = EdgeDeviceProperties.from_dict(edgeDeviceProperties)
+        updated_json_data = jsonData.to_dict()
+        print(updated_json_data)
+        config.write_setting(updated_json_data)
+
         return HttpResponse('success', "application/json")
