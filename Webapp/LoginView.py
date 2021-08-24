@@ -13,11 +13,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import serializers, status
 
-from app.ModbusTCP_MongoDB import modbus_tcp
-from .models import employees
-from .serializers import employeesSeerializer
-from django.http import JsonResponse
-
 
 class LoginViewAPI(APIView):
     def post(self, request):
@@ -25,17 +20,16 @@ class LoginViewAPI(APIView):
         filePath = './Json_Class/JSONCONFIG1.json'
 
         print(request.data)
-        json_string: str = "";
+        json_string: str = ""
         with open(filePath) as f:
             json_string = json.load(f)
             f.close()
         pwd: str = json_string["edge device"]["properties"]["Password"]
-        
 
-        if (pwd == str(request.data)):
+        if pwd == str(request.data):
             success = True
         # else:
         #     success = False
-        
+
         print(success)
-        return HttpResponse({success: success }, content_type="application/json")
+        return HttpResponse({success: success}, content_type="application/json")
