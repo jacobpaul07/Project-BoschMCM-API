@@ -1,8 +1,8 @@
 {
     "edge device": {
         "properties": {
-            "Name": "Edge Device 5",
-            "Mode1": "UNO-2271 Linux 5",
+            "Name": "Edge Device",
+            "Mode1": "UNO-2271 Linux",
             "Password": "123456",
             "Identity": "S3-0001",
             "IP Address": "192.168.1.15",

@@ -2,10 +2,9 @@ import json
 from django.shortcuts import render
 from rest_framework.views import APIView
 from django.http import HttpResponse
-from App.Json_Class import index as config, Edge, TCPdevice_dto
+from App.Json_Class import index as config, Edge
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 
-from App.Json_Class.COMProperties_dto import COMPORTProperties
 from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.RTUReaders.modbus_rtu import modbus_rtu
@@ -98,7 +97,6 @@ class ConfigGatewayProperties(APIView):
         data = request.body.decode("UTF-8")
         requestData = json.loads(data)
         jsonData: Edge = config.read_setting()
-
         edgeDeviceProperties = jsonData.edgedevice.properties.to_dict()
         for key in requestData:
             value = requestData[key]

@@ -33,7 +33,6 @@ urlpatterns = [
     # PPMP
     path('api/startppmp', views.StartPpmpService().as_view()),
     path('api/stopppmp', views.StopPpmpService().as_view()),
-
     # path('api/doLogin', LoginView.LoginViewAPI.as_view())
     path('api/changetcpip', views.ConfigIpChange().as_view()),
 ]
