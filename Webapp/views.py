@@ -14,6 +14,9 @@ import App.globalsettings as appsetting
 
 
 # Create your views here.
+from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties
+
+
 class ConfigIpChange(APIView):
 
     def post(self, request):
@@ -117,30 +120,13 @@ class ConfigDataCenterProperties(APIView):
     def post(self, request):
         data = request.body.decode("utf-8")
         requestData = json.loads(data)
-        jsonData: Edge = config.read_setting()
-        edgeDeviceProperties = jsonData.edgedevice.DataCenter
-        for key in requestData:
-            if key == "DeviceSettings":
-                if requestData[key]["deviceType"] == "COM1":
-                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.COM1
-
-                elif requestData[key]["deviceType"] == "COM2":
-                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.COM2
-
-                elif requestData[key]["deviceType"] == "TCP":
-                    edgeDeviceProperties = jsonData.edgedevice.DataCenter.TCP
-
-                for keys in requestData:
-                    value = requestData[keys]
-                    edgeDeviceProperties.properties.__setattr__(keys, value)
-                    if keys == "SerialPort Setting":
-                        for serialKey in requestData[keys]:
-                            serialValue = requestData[keys][serialKey]
-                            edgeDeviceProperties.properties.SerialPortSetting.__setattr__(serialKey, serialValue)
-
-        updated_json_data = jsonData.to_dict()
-        print(updated_json_data)
-        config.write_setting(updated_json_data)
+        payLoadData = requestData["data"]
+        deviceType: str = requestData["deviceType"]
+        print("DeviceType:", deviceType)
+        if deviceType == "COM1" or deviceType == "COM2":
+            ConfigComProperties().updateComPortProperties(requestData=payLoadData, portName=deviceType)
+        if deviceType == "TCP":
+            ConfigTcpProperties().updateTcpPortProperties(requestData=payLoadData)
 
         return HttpResponse("Success", "application/json")
 

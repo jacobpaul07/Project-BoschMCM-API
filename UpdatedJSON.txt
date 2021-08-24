@@ -9,6 +9,56 @@
             "Time Zone": "+05:30",
             "Description": "Siqsess Edge gateway Integrate with Bosch Nexeed Platform "
         },
+        "NetworkSetting":[
+          
+          {
+            "IPv4":{
+            "Name":"Ethernet1",
+            "Enable":"True",
+            "IPMode":"DHCP",
+            "IPAddress":"192",
+            "SubnetAddress":"255",
+            "DefaultGateway":"0",
+            "MACAddress":"C1",
+            "HostIdleTimeout":"700"},
+            
+            "IPv6":{
+            "Name":"Ethernet1",
+            "Enable":"True",
+            "IPMode":"DHCP",
+            "IPAddress":"fe80::30d6:5eff:fe1c",
+            "SubnetLength":"64",
+            "DefaultGateway":"0",
+            "MACAddress":"C1",
+            "HostIdleTimeout":"700"
+            }
+          },
+          
+          {
+            "IPv4":{
+            "Name":"Ethernet2",
+            "Enable":"True",
+            "IPMode":"DHCP",
+            "IPAddress":"192",
+            "SubnetAddress":"255",
+            "DefaultGateway":"0",
+            "MACAddress":"C1",
+            "HostIdleTimeout":"700"},
+            
+            "IPv6":{
+            "Name":"Ethernet2",
+            "Enable":"True",
+            "IPMode":"DHCP",
+            "IPAddress":"fe80::30d6:5eff:fe1c",
+            "SubnetLength":"64",
+            "DefaultGateway":"0",
+            "MACAddress":"C1",
+            "HostIdleTimeout":"700"
+            }
+          }
+          
+          ],
+          
         "DataCenter": {
             "COM1": {
                 "properties": {
@@ -180,20 +230,20 @@
             },
             "COM2": {
                 "properties": {
-                    "Enable": "False",
+                    "Enable": "True",
                     "Type": "Serial",
                     "Name": "Selec Twix 2",
                     "Description": "Built in Serial port RS232/rs422/rs485",
-                    "Scan Time(ms)": "11000",
-                    "Time Out(ms)": "13000",
-                    "Retry Count": "13",
+                    "Scan Time(ms)": "1000",
+                    "Time Out(ms)": "3000",
+                    "Retry Count": "3",
                     "Auto Recover Time(s)": "10",
                     "SerialPort Setting": {
                         "Method": "rtu",
                         "Port": "COM",
                         "Baud Rate": "9600",
                         "Data Bit": "8",
-                        "Stop Bit": "11",
+                        "Stop Bit": "1",
                         "Timeout": "1",
                         "Parity": "N",
                         "RTS": "False",
@@ -348,14 +398,14 @@
             },
             "TCP": {
                 "properties": {
-                    "Enable": "false",
+                    "Enable": "true",
                     "Type": "TCP",
                     "Name": "ADAM-6017",
                     "Description": "TCP Channel-ADAM6017",
-                    "Scan Time(ms)": "5001",
-                    "Time Out(ms)": "3001",
+                    "Scan Time(ms)": "5000",
+                    "Time Out(ms)": "3000",
                     "Retry Count": "3",
-                    "Auto Recover Time(s)": "301"
+                    "Auto Recover Time(s)": "300"
                 },
                 "devices": [
                     {
