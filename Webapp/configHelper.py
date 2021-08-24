@@ -51,7 +51,7 @@ class ConfigTcpProperties:
 
     def updateTcpPortProperties(self, requestData):
         jsonData: Edge = config.read_setting()
-        port = jsonData.edgedevice.DataCenter.TCP
+        port: TCPs = jsonData.edgedevice.DataCenter.TCP
         jsonProperties = port.properties.to_dict()
         for key in requestData:
             value = requestData[key]
