@@ -68,7 +68,7 @@ Run python manage.py runserver
         }
     }
 
-###API Data format:
+### API Data format:
 
     {
         "ip" : "192.168.1.40",
@@ -76,15 +76,15 @@ Run python manage.py runserver
         "deviceName" : "TCPdevice01" 
     }
 
-###Docker Image:
+### Docker Image:
   
     docker pull siqsessjacob/boschmcm_api
 
-###Docker Run:
+### Docker Run:
 
     docker run -t -p 8000:8000 siqsessjacob/boschmcm_api
 
-###Docker container ls:
+### Docker container ls:
 
     Format:
     docker exec -it (CONTAINER ID) /bin/bash  
