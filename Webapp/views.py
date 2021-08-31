@@ -1,4 +1,7 @@
+import datetime
 import json
+import time
+
 from django.shortcuts import render
 from rest_framework.views import APIView
 from django.http import HttpResponse
@@ -9,9 +12,11 @@ from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
 from App.PPMP.PPMP_Services import start_ppmp_post
 from App.RTUReaders.modbus_rtu import modbus_rtu
 from App.TCPReaders.modbus_tcp import modbus_tcp
+from App.Websockets.AppSocket import AppSocket
 import App.globalsettings as appsetting
-
-
+import threading
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 # Create your views here.
 from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties
 
@@ -136,3 +141,37 @@ class ReadDeviceSettings(APIView):
         jsonResponse = json.dumps(jsonData.to_dict(), indent=4)
 
         return HttpResponse(jsonResponse, "application/json")
+
+
+class startWebSocket(APIView):
+
+    def post(self, request):
+        appsetting.runWebSocket = True
+        thread = threading.Thread(
+            target=sendDataToWebSocket,
+            args=())
+
+        # Starting the Thread
+        thread.start()
+        return HttpResponse('success', "application/json")
+
+
+class stopWebSocket(APIView):
+
+    def post(self, request):
+        appsetting.runWebSocket = False
+
+        return HttpResponse('success', "application/json")
+
+
+def sendDataToWebSocket():
+    while appsetting.runWebSocket:
+        text_data = str(datetime.datetime.now())
+
+        channel_layer = get_channel_layer()
+        async_to_sync(channel_layer.group_send)("notificationGroup", {
+            "type": "chat_message",
+            "message": text_data
+        })
+
+        time.sleep(10)

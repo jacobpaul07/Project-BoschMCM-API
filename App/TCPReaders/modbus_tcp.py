@@ -4,6 +4,9 @@ import os
 import time
 from datetime import datetime
 
+from asgiref.sync import async_to_sync
+from channels.layers import get_channel_layer
+
 from App.Json_Class.TCPProperties_dto import TCPProperties
 from App.Json_Class.TCPdevice_dto import TCPdevice
 from App.Json_Class.index import read_setting
@@ -46,13 +49,21 @@ def modbus_tcp():
             # Starting the Thread
             thread.start()
 
+def sentLiveData(data):
+    text_data = json.dumps(data , indent=4)
+
+    channel_layer = get_channel_layer()
+    async_to_sync(channel_layer.group_send)("notificationGroup", {
+        "type": "chat_message",
+        "message": text_data
+    })
+
 
 # log definition
 def log(result):
     timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
     y = {"timestamp": f"{timestamp}"}
     result.append(y)
-
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
     filepath = './App/log/TCP/{}.json'.format(filename)
@@ -81,8 +92,10 @@ def threadCallBack(SERVER_HOST,
                    success):
     # Save the data to log file
 
-    log(result)
 
+    if appsetting.runWebSocket:
+        sentLiveData(result)
+    log(result)
     # Printing the thread ID
     print(threading.get_ident())
 

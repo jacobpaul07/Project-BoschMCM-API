@@ -8,4 +8,6 @@ def init():
     global startRtuService
     startRtuService = False
 
+    global runWebSocket
+    runWebSocket = False
 

@@ -1,4 +1,5 @@
-"""BoschMCM_API URL Configuration
+"""
+BoschMCM_API URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -13,11 +14,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from Webapp import views
+from App import views as AppViews
+from django.conf.urls import url
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
     # Read Edge Device Settings
     path('api/ReadDeviceSettings', views.ReadDeviceSettings().as_view()),
@@ -35,4 +40,9 @@ urlpatterns = [
     path('api/stopppmp', views.StopPpmpService().as_view()),
     # path('api/doLogin', LoginView.LoginViewAPI.as_view())
     path('api/changetcpip', views.ConfigIpChange().as_view()),
+
+    path('api/startWebSocket', views.startWebSocket().as_view()),
+    path('api/stopWebSocket', views.stopWebSocket().as_view()),
+
+    path('socket', AppViews.index, name='index')
 ]

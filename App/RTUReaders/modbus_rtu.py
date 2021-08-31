@@ -4,6 +4,9 @@ import os
 import time
 from datetime import datetime
 
+from asgiref.sync import async_to_sync
+from channels.layers import get_channel_layer
+
 from App.Json_Class.COMDevices_dto import COMdevice
 from App.Json_Class.COMProperties_dto import COMPORTProperties
 from App.Json_Class.SerialPortSetting_dto import SerialPortSettings
@@ -44,6 +47,14 @@ def modbus_rtu():
                     # Starting the Thread
                     thread.start()
 
+def sentLiveData(data):
+    text_data = json.dumps(data , indent=4)
+
+    channel_layer = get_channel_layer()
+    async_to_sync(channel_layer.group_send)("notificationGroup", {
+        "type": "chat_message",
+        "message": text_data
+    })
 
 # log definition
 def log(result):
@@ -78,6 +89,8 @@ def threadCallBack(settings: SerialPortSettings,
                    success):
     # Save the data to log file
     log(result)
+    if appsetting.runWebSocket:
+        sentLiveData(result)
     print("COM Data", result)
     # Printing the thread ID
     print(threading.get_ident())
