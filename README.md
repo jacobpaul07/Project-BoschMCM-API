@@ -67,7 +67,17 @@ Run python manage.py runserver
             }
         }
     }
+  
+  9. To Start WebSocket 
+  
+    API: $ curl --data "" http://127.0.0.1:8000/api/startWebSocket
+    
+  10. To Stop WebSocket 
 
+    API: $ curl --data "" http://127.0.0.1:8000/api/stopWebSocket
+
+### To Activate Redis 5
+    docker run -p 6379:6379 -d redis:5
 ### API Data format:
 
     {
