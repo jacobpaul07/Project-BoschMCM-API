@@ -173,5 +173,4 @@ def sendDataToWebSocket():
             "type": "chat_message",
             "message": text_data
         })
-
         time.sleep(10)
