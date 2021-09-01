@@ -42,7 +42,7 @@ def modbus_rtu():
                     # Initializing Threading
                     thread = threading.Thread(
                         target=ReadRTU,
-                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack))
+                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack,com))
 
                     # Starting the Thread
                     thread.start()
@@ -86,9 +86,16 @@ def threadCallBack(settings: SerialPortSettings,
                    comProperties: COMPORTProperties,
                    threadsCount,
                    result,
-                   success):
+                   success,
+                   com):
     # Save the data to log file
     log(result)
+    dID: str = ComDevices.properties.Name
+    Channel = {"Channel": com}
+    deviceName = {"deviceID": f"{dID}"}
+    print("deviceID", deviceName)
+    result.append(deviceName)
+    result.append(Channel)
     if appsetting.runWebSocket:
         sentLiveData(result)
     print("COM Data", result)
@@ -119,7 +126,7 @@ def threadCallBack(settings: SerialPortSettings,
         # Initializing Threading
         thread = threading.Thread(
             target=ReadRTU,
-            args=(settings, ComDevices, comProperties, threadsCount, threadCallBack)
+            args=(settings, ComDevices, comProperties, threadsCount, threadCallBack,com)
         )
 
         # Starting the Thread

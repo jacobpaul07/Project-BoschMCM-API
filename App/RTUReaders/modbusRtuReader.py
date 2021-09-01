@@ -6,7 +6,7 @@ from App.Json_Class.COMDevices_dto import *
 from App.Json_Class.SerialPortSetting_dto import SerialPortSettings
 
 
-def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:COMPORTProperties,threadsCount, callback):
+def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:COMPORTProperties,threadsCount, callback,com):
     success = True
     datasList = []
 
@@ -40,7 +40,7 @@ def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:CO
 
         thread = threading.Thread(
             target=callback,
-            args=(settings, ComDevices,comProperties, threadsCount, datasList, success)
+            args=(settings, ComDevices,comProperties, threadsCount, datasList, success,com)
         )
         thread.start()
 

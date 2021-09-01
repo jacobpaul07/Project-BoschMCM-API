@@ -91,11 +91,16 @@ def threadCallBack(SERVER_HOST,
                    result,
                    success):
     # Save the data to log file
-
-
+    log(result)
+    dID: str = tcpDevices.properties.Name
+    Channel = {"Channel": "TCP"}
+    deviceName = {"deviceID": f"{dID}"}
+    print("deviceID", deviceName)
+    result.append(deviceName)
+    result.append(Channel)
     if appsetting.runWebSocket:
         sentLiveData(result)
-    log(result)
+
     # Printing the thread ID
     print(threading.get_ident())
 

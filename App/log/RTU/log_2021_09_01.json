@@ -1,0 +1,7403 @@
+[
+  [
+    {
+      "timestamp": "2021-09-01T01:46:21_PM"
+    }
+  ],
+  [
+    {
+      "timestamp": "2021-09-01T01:48:28_PM"
+    }
+  ],
+  [
+    {
+      "timestamp": "2021-09-01T01:49:25_PM"
+    }
+  ],
+  [
+    {
+      "timestamp": "2021-09-01T01:49:28_PM"
+    }
+  ],
+  [
+    {
+      "timestamp": "2021-09-01T01:49:30_PM"
+    }
+  ],
+  [
+    {
+      "timestamp": "2021-09-01T01:49:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 0.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2021-09-01T01:49:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 0.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 6553.5
+    },
+    {
+      "timestamp": "2021-09-01T01:49:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 0.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2021-09-01T01:49:46_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 0.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 221.5
+    },
+    {
+      "timestamp": "2021-09-01T01:49:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:49:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:49:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:49:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:49:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:49:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:49:55_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:49:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.1
+    },
+    {
+      "timestamp": "2021-09-01T01:49:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.1
+    },
+    {
+      "timestamp": "2021-09-01T01:49:59_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.1
+    },
+    {
+      "timestamp": "2021-09-01T01:50:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 609.9
+    },
+    {
+      "timestamp": "2021-09-01T01:50:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 208.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.1
+    },
+    {
+      "timestamp": "2021-09-01T01:50:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.2
+    },
+    {
+      "timestamp": "2021-09-01T01:50:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.2
+    },
+    {
+      "timestamp": "2021-09-01T01:50:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 208.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.2
+    },
+    {
+      "timestamp": "2021-09-01T01:50:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.2
+    },
+    {
+      "timestamp": "2021-09-01T01:50:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:20_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:27_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:30_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:34_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 208.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.2
+    },
+    {
+      "timestamp": "2021-09-01T01:50:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:36_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:40_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:42_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:45_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:50:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 206.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:50:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 206.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:50:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 206.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:51:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:51:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:51:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:51:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:51:07_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:51:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 30.0
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:51:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 206.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:51:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:51:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:51:14_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.3
+    },
+    {
+      "timestamp": "2021-09-01T01:51:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:51:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.4
+    },
+    {
+      "timestamp": "2021-09-01T01:51:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:51:19_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:51:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 207.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:51:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 206.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:51:24_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 204.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:52:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 204.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:52:42_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 204.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:52:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:52:46_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:52:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:52:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 204.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:52:50_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:52:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:52:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:52:55_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:52:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:52:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:52:59_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 203.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:07_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:08_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.6
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:12_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.5
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.6
+    },
+    {
+      "timestamp": "2021-09-01T01:53:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:16_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:20_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:24_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:28_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:30_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.9
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:33_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:34_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:37_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:42_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:53:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:46_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:53:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:50_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:53:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:53:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:53:59_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.5
+    },
+    {
+      "timestamp": "2021-09-01T01:54:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:07_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:54:12_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:16_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:54:19_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:20_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:24_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:27_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:28_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:30_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:54:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:33_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:36_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:37_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:54:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:40_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:45_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:54:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:54:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:54:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:55_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:54:59_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:55:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:55:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:08_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:55:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:55:12_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:55:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:16_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:20_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:55:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:55:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:27_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:34_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:55:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.8
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:36_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:55:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:55:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:42_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:45_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:46_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:55:50_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:55:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:55:57_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:55:59_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:56:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:08_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:56:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:12_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:16_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:56:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:19_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:56:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:28_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:30_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:34_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:56:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:36_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:40_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:56:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:56:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:50_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:56:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:56:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:57_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:56:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:57:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:08_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.7
+    },
+    {
+      "timestamp": "2021-09-01T01:57:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:57:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:57:12_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 197.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:57:27_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:33_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:58:36_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:58:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:58:40_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:58:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:43_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:58:45_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:58:47_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:58:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:58:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:58:51_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:58:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:58:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:58:57_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:58:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:03_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:07_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:14_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:19_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.8
+    },
+    {
+      "timestamp": "2021-09-01T01:59:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:28_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 202.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:32_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:33_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:37_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:40_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:42_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T01:59:44_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:45_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:46_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:48_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:49_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T01:59:50_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:52_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:53_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:54_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:56_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T01:59:57_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 201.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T01:59:58_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:00_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.8
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:01_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:02_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T02:00:04_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:05_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T02:00:06_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.4
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:07_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:09_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.7
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.4
+    },
+    {
+      "timestamp": "2021-09-01T02:00:10_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:11_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:13_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:14_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 200.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:15_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:17_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:18_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:19_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:21_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:22_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:23_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.7
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:25_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:26_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.7
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.5
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:27_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 76.7
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.4
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:29_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:30_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.3
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.0
+    },
+    {
+      "timestamp": "2021-09-01T02:00:31_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:33_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.2
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:34_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.0
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T02:00:35_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 199.1
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:37_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.1
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.9
+    },
+    {
+      "tagName": "LDR",
+      "value": 610.9
+    },
+    {
+      "timestamp": "2021-09-01T02:00:38_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.2
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.2
+    },
+    {
+      "timestamp": "2021-09-01T02:00:39_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.5
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.7
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:41_PM"
+    }
+  ],
+  [
+    {
+      "tagName": "Temperature",
+      "value": 29.6
+    },
+    {
+      "tagName": "Pressure",
+      "value": 77.3
+    },
+    {
+      "tagName": "Flow",
+      "value": 198.6
+    },
+    {
+      "tagName": "LDR",
+      "value": 611.1
+    },
+    {
+      "timestamp": "2021-09-01T02:00:42_PM"
+    }
+  ]
+]
