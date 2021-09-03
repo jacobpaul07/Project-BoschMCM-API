@@ -4,7 +4,7 @@ from pyModbusTCP.client import ModbusClient
 from App.GeneralUtilities import timestamp
 from App.Json_Class.TCPProperties_dto import TCPProperties
 from App.Json_Class.TCPdevice_dto import TCPdevice
-
+from datetime import datetime
 
 def ReadTCPSingleTag(TCPMessurementTags: object, finalData: []):
 
@@ -36,6 +36,7 @@ def ReadTCPSingleTag(TCPMessurementTags: object, finalData: []):
                 result = {
                     "tagName": tagName,
                     "value": round(registerValue[0] * mulvalue, 3)
+
                 }
 
             for idx, currentObject in enumerate(finalData):
@@ -85,10 +86,13 @@ def ReadTCP(SERVER_HOST, SERVER_PORT, tcpDevices: TCPdevice, tcpProperties: TCPP
                     unitDiff = (unitHigh - unitLow)
                     diffCal = (regDiff/spanDiff)*unitDiff
                     finalCal = unitLow + diffCal
-
+                    timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
                     data = {
+                        "deviceID":tcpDevices.properties.Name,
+                        "channel":"TCP",
                         "tagName": tags.Name,
-                        "value": round(finalCal, 3)
+                        "value": round(finalCal, 3),
+                        "timestamp": timestamp
                     }
                     datasList.append(data)
 

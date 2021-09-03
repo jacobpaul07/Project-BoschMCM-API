@@ -58,9 +58,6 @@ def sentLiveData(data):
 
 # log definition
 def log(result):
-    timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
-    y = {"timestamp": f"{timestamp}"}
-    result.append(y)
 
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
@@ -89,15 +86,11 @@ def threadCallBack(settings: SerialPortSettings,
                    success,
                    com):
     # Save the data to log file
-    log(result)
-    dID: str = ComDevices.properties.Name
-    Channel = {"Channel": com}
-    deviceName = {"deviceID": f"{dID}"}
-    print("deviceID", deviceName)
-    result.append(deviceName)
-    result.append(Channel)
+
     if appsetting.runWebSocket:
         sentLiveData(result)
+
+    log(result)
     print("COM Data", result)
     # Printing the thread ID
     print(threading.get_ident())

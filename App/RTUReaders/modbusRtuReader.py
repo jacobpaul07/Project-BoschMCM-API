@@ -4,7 +4,7 @@ from App.GeneralUtilities import timestamp
 from App.Json_Class.COMProperties_dto import COMPORTProperties
 from App.Json_Class.COMDevices_dto import *
 from App.Json_Class.SerialPortSetting_dto import SerialPortSettings
-
+from datetime import datetime
 
 def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:COMPORTProperties,threadsCount, callback,com):
     success = True
@@ -27,9 +27,14 @@ def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:CO
                                                            count=1,
                                                            unit=int(ComDevices.properties.UnitNumber))
                     registerValue = register_data.registers
+                    timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
+
                     data = {
+                        "deviceID": ComDevices.properties.Name,
+                        "channel": com,
                         "tagName": tags.Name,
-                        "value": registerValue[0] / 10
+                        "value": registerValue[0] / 10,
+                        "timestamp": timestamp
                     }
                     datasList.append(data)
 

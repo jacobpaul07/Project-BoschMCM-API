@@ -147,12 +147,12 @@ class startWebSocket(APIView):
 
     def post(self, request):
         appsetting.runWebSocket = True
-        thread = threading.Thread(
-            target=sendDataToWebSocket,
-            args=())
+        # thread = threading.Thread(
+        #     target=sendDataToWebSocket,
+        #     args=())
 
         # Starting the Thread
-        thread.start()
+        # thread.start()
         return HttpResponse('success', "application/json")
 
 

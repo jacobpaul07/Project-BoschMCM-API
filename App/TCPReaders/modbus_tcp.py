@@ -61,9 +61,7 @@ def sentLiveData(data):
 
 # log definition
 def log(result):
-    timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
-    y = {"timestamp": f"{timestamp}"}
-    result.append(y)
+
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
     filepath = './App/log/TCP/{}.json'.format(filename)
@@ -91,16 +89,10 @@ def threadCallBack(SERVER_HOST,
                    result,
                    success):
     # Save the data to log file
-    log(result)
-    dID: str = tcpDevices.properties.Name
-    Channel = {"Channel": "TCP"}
-    deviceName = {"deviceID": f"{dID}"}
-    print("deviceID", deviceName)
-    result.append(deviceName)
-    result.append(Channel)
+
     if appsetting.runWebSocket:
         sentLiveData(result)
-
+    log(result)
     # Printing the thread ID
     print(threading.get_ident())
 
