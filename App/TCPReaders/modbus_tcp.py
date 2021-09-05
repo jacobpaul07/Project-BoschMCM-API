@@ -92,7 +92,7 @@ def threadCallBack(SERVER_HOST,
 
     if appsetting.runWebSocket:
         sentLiveData(result)
-    log(result)
+    # log(result)
     # Printing the thread ID
     print(threading.get_ident())
 

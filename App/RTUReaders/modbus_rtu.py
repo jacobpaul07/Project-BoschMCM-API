@@ -90,7 +90,7 @@ def threadCallBack(settings: SerialPortSettings,
     if appsetting.runWebSocket:
         sentLiveData(result)
 
-    log(result)
+    # log(result)
     print("COM Data", result)
     # Printing the thread ID
     print(threading.get_ident())
