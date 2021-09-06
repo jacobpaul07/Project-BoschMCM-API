@@ -6,8 +6,8 @@ from App.Json_Class.TCPProperties_dto import TCPProperties
 from App.Json_Class.TCPdevice_dto import TCPdevice
 from datetime import datetime
 
-def ReadTCPSingleTag(TCPMessurementTags: object, finalData: []):
 
+def ReadTCPSingleTag(TCPMessurementTags: object, finalData: []):
     result: object = {}
     tcpDeviceEnabled: bool = bool(str(TCPMessurementTags["Enabled"]))
     SERVER_HOST: str = TCPMessurementTags["IP"]
@@ -84,12 +84,13 @@ def ReadTCP(SERVER_HOST, SERVER_PORT, tcpDevices: TCPdevice, tcpProperties: TCPP
                     regDiff = (inputValue - spanLow)
                     spanDiff = (spanHigh - spanLow)
                     unitDiff = (unitHigh - unitLow)
-                    diffCal = (regDiff/spanDiff)*unitDiff
+                    diffCal = (regDiff / spanDiff) * unitDiff
                     finalCal = unitLow + diffCal
                     timestamp = datetime.now().strftime("%Y-%m-%dT%I:%M:%S_%p")
+                    deviceID = tcpDevices.properties.Name
                     data = {
-                        "deviceID":tcpDevices.properties.Name,
-                        "channel":"TCP",
+                        "deviceID": deviceID,
+                        "channel": "TCP",
                         "tagName": tags.Name,
                         "value": round(finalCal, 3),
                         "timestamp": timestamp
@@ -98,7 +99,7 @@ def ReadTCP(SERVER_HOST, SERVER_PORT, tcpDevices: TCPdevice, tcpProperties: TCPP
 
                 # if success display registers
                 if datasList:
-                    print("reg ad #0 to 7: " + str(datasList))
+                    print(tcpDevices.properties.Name + str(datasList))
         except:
             success = False
             print("Device is not Connected")

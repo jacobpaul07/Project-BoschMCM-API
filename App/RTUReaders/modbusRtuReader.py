@@ -6,12 +6,15 @@ from App.Json_Class.COMDevices_dto import *
 from App.Json_Class.SerialPortSetting_dto import SerialPortSettings
 from datetime import datetime
 
-def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:COMPORTProperties,threadsCount, callback,com):
+
+def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice, comProperties: COMPORTProperties, threadsCount,
+            callback, com):
     success = True
     datasList = []
 
     if ComDevices.properties.Enable == "True":
-        c = ModbusClient(method=settings.Method, port=settings.Port, timeout=int(settings.Timeout), stopbits=int(settings.StopBit), bytesize=int(settings.DataBit), parity=settings.Parity,
+        c = ModbusClient(method=settings.Method, port=settings.Port, timeout=int(settings.Timeout),
+                         stopbits=int(settings.StopBit), bytesize=int(settings.DataBit), parity=settings.Parity,
                          baudrate=int(settings.BaudRate))
 
         # open or reconnect TCP to server
@@ -37,7 +40,7 @@ def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:CO
                         "timestamp": timestamp
                     }
                     datasList.append(data)
-
+                print(ComDevices.properties.Name + str(datasList))
                 c.close()
         except:
             success = False
@@ -45,7 +48,7 @@ def ReadRTU(settings: SerialPortSettings, ComDevices: COMdevice,comProperties:CO
 
         thread = threading.Thread(
             target=callback,
-            args=(settings, ComDevices,comProperties, threadsCount, datasList, success,com)
+            args=(settings, ComDevices, comProperties, threadsCount, datasList, success, com)
         )
         thread.start()
 

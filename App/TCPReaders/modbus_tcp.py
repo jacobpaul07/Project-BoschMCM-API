@@ -92,9 +92,9 @@ def threadCallBack(SERVER_HOST,
 
     if appsetting.runWebSocket:
         sentLiveData(result)
-    # log(result)
+    log(result)
     # Printing the thread ID
-    print(threading.get_ident())
+    # print(threading.get_ident())
 
     # Checking the device status for failure
     if not success:
@@ -113,9 +113,9 @@ def threadCallBack(SERVER_HOST,
 
     timeout = int(tcpProperties.ScanTimems) / 1000
     time.sleep(timeout)
-    print("Test==", appsetting.startTcpService)
+    # print("Test==", appsetting.startTcpService)
     if appsetting.startTcpService:
-        print("Restarted")
+        # print("Restarted")
         # Initializing Threading
         thread = threading.Thread(
             target=ReadTCP,
