@@ -4,7 +4,7 @@ import time
 
 from django.shortcuts import render
 from rest_framework.views import APIView
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseBadRequest
 from App.Json_Class import index as config, Edge
 from typing import Any, List, Optional, TypeVar, Type, cast, Callable
 
@@ -18,7 +18,7 @@ import threading
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 # Create your views here.
-from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties
+from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties, ConfigComDevicesProperties,ConfigTCPDevicesProperties
 
 
 class ConfigIpChange(APIView):
@@ -132,6 +132,30 @@ class ConfigDataCenterProperties(APIView):
             ConfigTcpProperties().updateTcpPortProperties(requestData=payLoadData)
 
         return HttpResponse("Success", "application/json")
+
+
+class ConfigDataCenterDeviceProperties(APIView):
+
+    def post(self, request):
+        data = request.body.decode("utf-8")
+        requestData = json.loads(data)
+        payLoadData = requestData["data"]
+        deviceType: str = requestData["deviceType"]
+        deviceName: str = requestData["deviceName"]
+        print("DeviceType:", deviceType)
+        if deviceType == "COM1" or deviceType == "COM2":
+            response = ConfigComDevicesProperties().updateComDeviceProperties(payLoadData, deviceType, deviceName)
+            if response == 'success':
+                return HttpResponse(response, "application/json")
+            else:
+                return HttpResponseBadRequest(response)
+
+        if deviceType == "TCP":
+            response = ConfigTCPDevicesProperties().updateTCPDeviceProperties(payLoadData, deviceName)
+            if response == 'success':
+                return HttpResponse(response, "application/json")
+            else:
+                return HttpResponseBadRequest(response)
 
 
 class ReadDeviceSettings(APIView):

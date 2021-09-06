@@ -36,14 +36,14 @@
                     {
                         "properties": {
                             "Enable": "True",
-                            "Name": "COM1-Device-01",
+                            "Name": "COM1-Device",
                             "Device Type": "Modbus RTU",
-                            "Device Model": "ADAM6017",
+                            "Device Model": "ADAM",
                             "Unit Number": "2",
                             "Description": "Slave 1",
                             "Add device name as prefix to IO Tag": "Enable",
                             "Extention Properties": {
-                                "CheckSum": "Disable",
+                                "CheckSum": "Enable",
                                 "Protocol": "Modbus",
                                 "ModbusDigital block size": "16",
                                 "Modbus Analog block Size": "16"
@@ -429,12 +429,12 @@
                             "Enable": "true",
                             "Name": "TCPdevice02",
                             "Device Type": "Modbus TCP",
-                            "Device Model": "ADAM6017",
+                            "Device Model": "ADAM7",
                             "Unit Number": "1",
-                            "Description": "TCP device2",
+                            "Description": "TCP device",
                             "Add device name as prefix to IO Tag": "Enable",
                             "TCP/IP": {
-                                "IP Adress": "192.168.1.101",
+                                "IP Adress": "192.168.1.200",
                                 "Port Number": "502"
                             },
                             "Extention Properties": {
