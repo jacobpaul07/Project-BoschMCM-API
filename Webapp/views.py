@@ -18,7 +18,8 @@ import threading
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 # Create your views here.
-from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties, ConfigComDevicesProperties,ConfigTCPDevicesProperties
+from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties, ConfigComDevicesProperties, \
+    ConfigTCPDevicesProperties, ConfigTCPDevicesIOTags
 
 
 class ConfigIpChange(APIView):
@@ -152,6 +153,30 @@ class ConfigDataCenterDeviceProperties(APIView):
 
         if deviceType == "TCP":
             response = ConfigTCPDevicesProperties().updateTCPDeviceProperties(payLoadData, deviceName)
+            if response == 'success':
+                return HttpResponse(response, "application/json")
+            else:
+                return HttpResponseBadRequest(response)
+
+
+class ConfigDataCenterDeviceIOTags(APIView):
+
+    def post(self, request):
+        data = request.body.decode("utf-8")
+        requestData = json.loads(data)
+        payLoadData = requestData["data"]
+        deviceType: str = requestData["deviceType"]
+        deviceName: str = requestData["deviceName"]
+        print("DeviceType:", deviceType)
+        if deviceType.startswith("COM") and len(deviceType) == 4:
+            response = ConfigTCPDevicesIOTags().updateComIoTags(payLoadData, deviceType, deviceName)
+            if response == 'success':
+                return HttpResponse(response, "application/json")
+            else:
+                return HttpResponseBadRequest(response)
+
+        if deviceType == "TCP":
+            response = ConfigTCPDevicesIOTags().updateTcpIoTags(payLoadData, deviceName)
             if response == 'success':
                 return HttpResponse(response, "application/json")
             else:

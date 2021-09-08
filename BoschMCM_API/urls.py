@@ -30,6 +30,7 @@ urlpatterns = [
     path('api/changeedgedeviceproperties', views.ConfigGatewayProperties().as_view()),
     path('api/changeDataCenterProperties', views.ConfigDataCenterProperties().as_view()),
     path('api/changeDataCenterDeviceProperties', views.ConfigDataCenterDeviceProperties().as_view()),
+    path('api/changeDataCenterDeviceIOTags', views.ConfigDataCenterDeviceIOTags.as_view()),
     # TCP
     path('api/starttcp', views.StartTcpService().as_view()),
     path('api/stoptcp', views.StopTcpService().as_view()),

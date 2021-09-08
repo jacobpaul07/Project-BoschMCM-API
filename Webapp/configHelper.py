@@ -6,6 +6,7 @@ from App.Json_Class.EdgeDeviceProperties_dto import EdgeDeviceProperties
 from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, TypeVar, Type, cast, Callable
 
+from App.Json_Class.IOTag_dto import IOTag
 from App.Json_Class.TCPProperties_dto import TCPProperties
 from App.Json_Class.TCP_dto import TCPs
 from App.Json_Class.TCPdeviceProperties_dto import TCPdeviceProperties
@@ -63,6 +64,7 @@ class ConfigTcpProperties:
         jsonData.edgedevice.DataCenter.TCP.properties = TCPProperties.from_dict(jsonProperties)
         print(jsonData)
         updateConfig(jsonData)
+        return "success"
 
 
 class ConfigComDevicesProperties:
@@ -91,16 +93,12 @@ class ConfigComDevicesProperties:
                 if comDevice.properties.Name == deviceName:
                     comDevice.properties = COMdeviceProperties.from_dict(comDeviceProperties)
 
-            if portName == "COM1":
-                jsonData.edgedevice.DataCenter.COM1 = port
-            elif portName == "COM2":
-                jsonData.edgedevice.DataCenter.COM2 = port
-
+            jsonData.edgedevice.DataCenter.__setattr__(portName, port)
             print(jsonData.edgedevice.DataCenter.COM1.devices)
             updateConfig(jsonData)
             return "success"
         else:
-            return "Tcp device not found"
+            return "COM device not found"
 
 
 class ConfigTCPDevicesProperties:
@@ -134,4 +132,44 @@ class ConfigTCPDevicesProperties:
             return "Tcp device not found"
 
 
+class ConfigTCPDevicesIOTags:
 
+    def updateIOTag(self, requestData, ioTags: List[IOTag]):
+        updateTag = None
+        for i in range(len(ioTags)):
+            if ioTags[i].Name == requestData["Name"]:
+                updateTag = ioTags[i].to_dict()
+        if updateTag is not None:
+            updateTag = updateGenericdeviceObject(requestData, updateTag)
+            for i in range(len(ioTags)):
+                if ioTags[i].Name == requestData["Name"]:
+                    ioTags[i] = IOTag.from_dict(updateTag)
+            return ioTags
+
+    def updateTcpIoTags(self, requestData, deviceName):
+        jsonData: Edge = config.read_setting()
+        for i in range(len(jsonData.edgedevice.DataCenter.TCP.devices)):
+            if jsonData.edgedevice.DataCenter.TCP.devices[i].properties.Name == deviceName:
+                ioTags = jsonData.edgedevice.DataCenter.TCP.devices[i].IOTags
+                for obj in requestData:
+                    ioTags = self.updateIOTag(obj, ioTags)
+                jsonData.edgedevice.DataCenter.TCP.devices[i].IOTags = ioTags
+
+        updateConfig(jsonData)
+        return "success"
+
+    def updateComIoTags(self, requestData, portName, deviceName):
+        jsonData: Edge = config.read_setting()
+        port: Comport = jsonData.edgedevice.DataCenter.__getattribute__(portName)
+
+        for i in range(len(port.devices)):
+            if port.devices[i].properties.Name == deviceName:
+                ioTags = port.devices[i].IOTags
+                for obj in requestData:
+                    ioTags = self.updateIOTag(obj, ioTags)
+                port.devices[i].IOTags = ioTags
+
+        jsonData.edgedevice.DataCenter.__setattr__(portName, port)
+        print(jsonData.edgedevice.DataCenter.__getattribute__(portName))
+        updateConfig(jsonData)
+        return "success"

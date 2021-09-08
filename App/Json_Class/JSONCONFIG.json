@@ -282,15 +282,15 @@
                     },
                     {
                         "properties": {
-                            "Enable": "False",
+                            "Enable": "True",
                             "Name": "COM2-Device-02",
                             "Device Type": "Modbus RTU",
-                            "Device Model": "ADAM4017",
+                            "Device Model": "ADAM",
                             "Unit Number": "2",
-                            "Description": "Slave 2",
+                            "Description": "Slave 1",
                             "Add device name as prefix to IO Tag": "Enable",
                             "Extention Properties": {
-                                "CheckSum": "Disable",
+                                "CheckSum": "Enable",
                                 "Protocol": "Modbus",
                                 "ModbusDigital block size": "16",
                                 "Modbus Analog block Size": "16"
@@ -379,8 +379,8 @@
                         "IO Tags": [
                             {
                                 "Name": "Temperature",
-                                "Signal Type": "AI Signal",
-                                "Conversion": "IEEE Float Point",
+                                "Signal Type": "AI-Signal",
+                                "Conversion": "IEEE Float Pointl",
                                 "Address": "0",
                                 "Span High": "65535",
                                 "Span Low": "0",
@@ -394,7 +394,7 @@
                             },
                             {
                                 "Name": "Pressure",
-                                "Signal Type": "AI Signal",
+                                "Signal Type": "AI",
                                 "Conversion": "IEEE Float Point",
                                 "Address": "1",
                                 "Span High": "65535",
@@ -409,7 +409,7 @@
                             },
                             {
                                 "Name": "Flow",
-                                "Signal Type": "AI Signal",
+                                "Signal Type": "AI ",
                                 "Conversion": "IEEE Float Point",
                                 "Address": "2",
                                 "Span High": "65535",

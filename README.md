@@ -67,12 +67,92 @@ Run python manage.py runserver
             }
         }
     }
-  
-  9. To Start WebSocket 
+  10. To Change DataCenter-Device Properties
+
+    API: http://localhost:8000/api/changeDataCenterDeviceProperties
+    BODY:
+    {
+    "mode": "update",
+    "deviceType": "COM2",
+    "deviceName":"COM2-Device-02",
+    "data": {
+        "Enable": "True",
+        "Name": "COM2-Device-02",
+        "Device Type": "Modbus RTU",
+        "Device Model": "ADAM",
+        "Unit Number": "2",
+        "Description": "Slave 1",
+        "Add device name as prefix to IO Tag": "Enable",
+        "Extention Properties": {
+            "CheckSum": "Enable",
+            "Protocol": "Modbus",
+            "ModbusDigital block size": "16",
+            "Modbus Analog block Size": "16"
+        }
+      }
+    }
+
+  11. To change DataCenter-Device IOTags 
+     
+    API: http://localhost:8000/api/changeDataCenterDeviceIOTags
+    BODY:
+    {
+    "mode": "update",
+    "deviceType": "COM2",
+    "deviceName":"COM2-Device-01",
+    "data": [
+            {
+                "Name": "Temperature",
+                "Signal Type": "AI Signal",
+                "Conversion": "IEEE Float Point",
+                "Address": "6",
+                "Span High": "1000",
+                "Span Low": "0",
+                "Unit High": "0",
+                "Unit Low": "10",
+                "Initial Value": "0.0",
+                "Scan Rate": "1",
+                "Read Write": "Read Only",
+                "initvalue": "10",
+                "Description": "Temperature Sensor"
+            }
+            {
+                "Name": "Pressure",
+                "Signal Type": "AI",
+                "Conversion": "IEEE Float Point",
+                "Address": "1",
+                "Span High": "65535",
+                "Span Low": "0",
+                "Unit High": "10",
+                "Unit Low": "0",
+                "Initial Value": "0.0",
+                "Scan Rate": "1",
+                "Read Write": "Read Only",
+                "initvalue": "10",
+                "Description": "Level 1"
+            },
+            {
+                "Name": "Flow",
+                "Signal Type": "AI ",
+                "Conversion": "IEEE Float Point",
+                "Address": "2",
+                "Span High": "65535",
+                "Span Low": "0",
+                "Unit High": "10",
+                "Unit Low": "0",
+                "Initial Value": "0.0",
+                "Scan Rate": "1",
+                "Read Write": "Read Only",
+                "initvalue": "10",
+                "Description": "Flow 2"
+            }
+                ]
+}
+  12. To Start WebSocket 
   
     API: $ curl --data "" http://127.0.0.1:8000/api/startWebSocket
     
-  10. To Stop WebSocket 
+  13. To Stop WebSocket 
 
     API: $ curl --data "" http://127.0.0.1:8000/api/stopWebSocket
 
