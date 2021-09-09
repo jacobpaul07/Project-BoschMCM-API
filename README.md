@@ -115,7 +115,7 @@ Run python manage.py runserver
                 "Read Write": "Read Only",
                 "initvalue": "10",
                 "Description": "Temperature Sensor"
-            }
+            },
             {
                 "Name": "Pressure",
                 "Signal Type": "AI",
@@ -146,8 +146,8 @@ Run python manage.py runserver
                 "initvalue": "10",
                 "Description": "Flow 2"
             }
-                ]
-}
+        ]
+    }
   12. To Start WebSocket 
   
     API: $ curl --data "" http://127.0.0.1:8000/api/startWebSocket

@@ -7,6 +7,9 @@ from App.Json_Class import index as config, Edge, TCPdevice_dto
 from typing import Any, List, TypeVar, Type, cast, Callable
 
 from App.Json_Class.IOTag_dto import IOTag
+from App.Json_Class.PPMPProperties_dto import PPMPPropertiess
+from App.Json_Class.PPMP_dto import Ppmps
+from App.Json_Class.Stations_dto import Stations
 from App.Json_Class.TCPProperties_dto import TCPProperties
 from App.Json_Class.TCP_dto import TCPs
 from App.Json_Class.TCPdeviceProperties_dto import TCPdeviceProperties
@@ -132,7 +135,7 @@ class ConfigTCPDevicesProperties:
             return "Tcp device not found"
 
 
-class ConfigTCPDevicesIOTags:
+class ConfigDevicesIOTags:
 
     def updateIOTag(self, requestData, ioTags: List[IOTag]):
         updateTag = None
@@ -173,3 +176,44 @@ class ConfigTCPDevicesIOTags:
         print(jsonData.edgedevice.DataCenter.__getattribute__(portName))
         updateConfig(jsonData)
         return "success"
+
+
+class ConfigPpmpProperties:
+
+    def updatePpmpProperties(self, requestData):
+        jsonData: Edge = config.read_setting()
+        PPMP: Ppmps = jsonData.edgedevice.DataService.PPMP
+        jsonProperties = PPMP.Properties.to_dict()
+        updateGenericdeviceObject(requestData, jsonProperties)
+        jsonData.edgedevice.DataService.PPMP.Properties = PPMPPropertiess.from_dict(jsonProperties)
+        print(jsonData)
+        updateConfig(jsonData)
+        return "success"
+
+
+class ConfigPpmpStation:
+
+    def updateStation(self, requestData, stations: List[Stations]):
+        updateTag = None
+        for i in range(len(stations)):
+            print(stations)
+            if stations[i].StationID == requestData["StationID"]:
+                updateTag = stations[i].to_dict()
+        if updateTag is not None:
+            updateTag = updateGenericdeviceObject(requestData, updateTag)
+            for i in range(len(stations)):
+                if stations[i].StationID == requestData["StationID"]:
+                    stations[i] = Stations.from_dict(updateTag)
+            return stations
+
+    def updateStations(self, requestData):
+        jsonData: Edge = config.read_setting()
+        stations: List[Stations] = jsonData.edgedevice.DataService.PPMP.Station
+        for obj in requestData:
+            stations = self.updateStation(obj, stations)
+
+        # jsonData.edgedevice.DataCenter.TCP.devices[i].IOTags = stations
+
+        # updateConfig(jsonData)
+        return "success"
+

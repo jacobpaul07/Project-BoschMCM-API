@@ -19,7 +19,7 @@ from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 # Create your views here.
 from Webapp.configHelper import ConfigComProperties, ConfigTcpProperties, ConfigComDevicesProperties, \
-    ConfigTCPDevicesProperties, ConfigTCPDevicesIOTags
+    ConfigTCPDevicesProperties, ConfigPpmpProperties, ConfigDevicesIOTags, ConfigPpmpStation
 
 
 class ConfigIpChange(APIView):
@@ -169,14 +169,30 @@ class ConfigDataCenterDeviceIOTags(APIView):
         deviceName: str = requestData["deviceName"]
         print("DeviceType:", deviceType)
         if deviceType.startswith("COM") and len(deviceType) == 4:
-            response = ConfigTCPDevicesIOTags().updateComIoTags(payLoadData, deviceType, deviceName)
+            response = ConfigDevicesIOTags().updateComIoTags(payLoadData, deviceType, deviceName)
             if response == 'success':
                 return HttpResponse(response, "application/json")
             else:
                 return HttpResponseBadRequest(response)
 
         if deviceType == "TCP":
-            response = ConfigTCPDevicesIOTags().updateTcpIoTags(payLoadData, deviceName)
+            response = ConfigDevicesIOTags().updateTcpIoTags(payLoadData, deviceName)
+            if response == 'success':
+                return HttpResponse(response, "application/json")
+            else:
+                return HttpResponseBadRequest(response)
+
+
+class ConfigPpmpStations(APIView):
+
+    def post(self, request):
+        data = request.body.decode("utf-8")
+        requestData = json.loads(data)
+        payLoadData = requestData["data"]
+        deviceType: str = requestData["deviceType"]
+        print("DeviceType:", deviceType)
+        if deviceType == "PPMP":
+            response = ConfigPpmpStation().updateStations(payLoadData)
             if response == 'success':
                 return HttpResponse(response, "application/json")
             else:
@@ -223,3 +239,23 @@ def sendDataToWebSocket():
             "message": text_data
         })
         time.sleep(10)
+
+
+class ConfigDataServiceProperties(APIView):
+
+    def post(self, request):
+        data = request.body.decode("utf-8")
+        requestData = json.loads(data)
+        payLoadData = requestData["data"]
+        deviceType: str = requestData["deviceType"]
+        print("DeviceType:", deviceType)
+        if deviceType == "PPMP":
+            response = ConfigPpmpProperties().updatePpmpProperties(requestData=payLoadData)
+        else:
+            response = "No PPMP"
+        #     ConfigTcpProperties().updateTcpPortProperties(requestData=payLoadData)
+
+        if response == 'success':
+            return HttpResponse(response, "application/json")
+        else:
+            return HttpResponseBadRequest(response)

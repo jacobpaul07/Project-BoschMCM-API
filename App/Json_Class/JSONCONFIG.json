@@ -496,7 +496,7 @@
         "DataService": {
             "PPMP": {
                 "Properties": {
-                    "Enable": "True",
+                    "Enable": "fALSE",
                     "contentspec": "urn:spec://eclipse.org/unide/measurement-message#v3",
                     "timestamp": "2021-07-06T10:53:01.545Z"
                 },

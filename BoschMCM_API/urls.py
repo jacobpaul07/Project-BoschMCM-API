@@ -28,9 +28,13 @@ urlpatterns = [
     path('api/ReadDeviceSettings', views.ReadDeviceSettings().as_view()),
     # Change Edge Device Settings
     path('api/changeedgedeviceproperties', views.ConfigGatewayProperties().as_view()),
+    # Change DataCenter Properties
     path('api/changeDataCenterProperties', views.ConfigDataCenterProperties().as_view()),
     path('api/changeDataCenterDeviceProperties', views.ConfigDataCenterDeviceProperties().as_view()),
     path('api/changeDataCenterDeviceIOTags', views.ConfigDataCenterDeviceIOTags.as_view()),
+    # Change DataService Properties
+    path('api/changeDataServiceProperties', views.ConfigDataServiceProperties.as_view()),
+    path('api/changePpmpStations', views.ConfigPpmpStations.as_view()),
     # TCP
     path('api/starttcp', views.StartTcpService().as_view()),
     path('api/stoptcp', views.StopTcpService().as_view()),
