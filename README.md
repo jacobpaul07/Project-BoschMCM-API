@@ -24,7 +24,11 @@ Run python manage.py runserver
   7. To STOP ModbusRTU
 
     API: $ curl --data "" http://127.0.0.1:8000/api/stoprtu
-  8. To change the EdgeGateway Properties
+  8. Read Device Setting / Properties
+  
+    API: $ curl --data "" http://127.0.0.1:8000/api/ReadDeviceSettings
+
+  9. To change the EdgeGateway Properties
      
     API: http://localhost:8000/api/changeDataCenterProperties
     BODY:
