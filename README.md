@@ -99,7 +99,7 @@ Run Command:
       }
     }
 
-  11. To change DataCenter-Device IOTags 
+  11. To change DataCenter-Device IOTags  (Sensor Properties)
      
     API: http://localhost:8000/api/changeDataCenterDeviceIOTags
     BODY:
