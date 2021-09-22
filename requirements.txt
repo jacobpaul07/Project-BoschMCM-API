@@ -4,7 +4,8 @@ requests==2.11.1
 Django==3.2.5
 djangorestframework==3.12.4
 websockets==9.1
-django-cors-headers==3.8.0
 asgiref~=3.4.1
 channels~=3.0.4
-channels-redis==3.3.0
+progressbar~=2.5
+paho-mqtt~=1.5.1
+toml~=0.10.2

@@ -193,14 +193,17 @@ class ConfigPpmpProperties:
 
 class ConfigPpmpStation:
 
-    def updateStation(self, requestData, stations: List[Stations]):
-        updateTag = None
-        for i in range(len(stations)):
-            print(stations)
-            if stations[i].StationID == requestData["StationID"]:
-                updateTag = stations[i].to_dict()
-        if updateTag is not None:
-            updateTag = updateGenericdeviceObject(requestData, updateTag)
+    def updateStation(self, requestObj, stations: List[Stations]):
+
+        for requestData in requestObj:
+            updateTag = None
+            for i in range(len(stations)):
+                print(stations)
+                if stations[i].StationID == requestData["StationID"]:
+                    updateTag = stations[i].to_dict()
+                    if updateTag is not None:
+                        updateTag = updateGenericdeviceObject(requestData, updateTag)
+
             for i in range(len(stations)):
                 if stations[i].StationID == requestData["StationID"]:
                     stations[i] = Stations.from_dict(updateTag)
@@ -209,11 +212,8 @@ class ConfigPpmpStation:
     def updateStations(self, requestData):
         jsonData: Edge = config.read_setting()
         stations: List[Stations] = jsonData.edgedevice.DataService.PPMP.Station
-        for obj in requestData:
-            stations = self.updateStation(obj, stations)
-
-        # jsonData.edgedevice.DataCenter.TCP.devices[i].IOTags = stations
-
-        # updateConfig(jsonData)
+        stations = self.updateStation(requestData, stations)
+        jsonData.edgedevice.DataService.PPMP.Station = stations
+        updateConfig(jsonData)
         return "success"
 

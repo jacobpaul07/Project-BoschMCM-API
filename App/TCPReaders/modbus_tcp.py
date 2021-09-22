@@ -26,31 +26,34 @@ def modbus_tcp():
     # Assigning TCP Properties to "tcp_properties" variable
     tcp_properties = data.edgedevice.DataCenter.TCP.properties
 
-    # Initializing the loop total number of devices in the Config-file
-    for dev in data.edgedevice.DataCenter.TCP.devices:
+    if tcp_properties.Enable == "True" or tcp_properties.Enable == "true":
 
-        # Checking if the device property is Enabled
-        if dev.properties.Enable == "true":
-            # Assigning the IP and Port
-            SERVER_HOST = dev.properties.TCPIP.IPAdress
-            SERVER_PORT = dev.properties.TCPIP.PortNumber
+        # Initializing the loop total number of devices in the Config-file
+        for dev in data.edgedevice.DataCenter.TCP.devices:
 
-            # Declaring Threading count and failed attempts object
-            threadsCount = {
-                "count": 0,
-                "failed": 0
-            }
+            # Checking if the device property is Enabled
+            if dev.properties.Enable == "true" or dev.properties.Enable == "True":
+                # Assigning the IP and Port
+                SERVER_HOST = dev.properties.TCPIP.IPAdress
+                SERVER_PORT = dev.properties.TCPIP.PortNumber
 
-            # Initializing Threading
-            thread = threading.Thread(
-                target=ReadTCP,
-                args=(SERVER_HOST, SERVER_PORT, dev, tcp_properties, threadsCount, threadCallBack))
+                # Declaring Threading count and failed attempts object
+                threadsCount = {
+                    "count": 0,
+                    "failed": 0
+                }
 
-            # Starting the Thread
-            thread.start()
+                # Initializing Threading
+                thread = threading.Thread(
+                    target=ReadTCP,
+                    args=(SERVER_HOST, SERVER_PORT, dev, tcp_properties, threadsCount, threadCallBack))
+
+                # Starting the Thread
+                thread.start()
+
 
 def sentLiveData(data):
-    text_data = json.dumps(data , indent=4)
+    text_data = json.dumps(data, indent=4)
 
     channel_layer = get_channel_layer()
     async_to_sync(channel_layer.group_send)("notificationGroup", {
@@ -61,7 +64,6 @@ def sentLiveData(data):
 
 # log definition
 def log(result):
-
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
     filepath = './App/log/TCP/{}.json'.format(filename)
@@ -128,4 +130,3 @@ def threadCallBack(SERVER_HOST,
         # print("callback function called")
         # print("{}".format(threadsCount))
         # print(threading.get_ident())
-

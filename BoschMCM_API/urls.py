@@ -49,6 +49,5 @@ urlpatterns = [
 
     path('api/startWebSocket', views.startWebSocket().as_view()),
     path('api/stopWebSocket', views.stopWebSocket().as_view()),
-
     path('socket', AppViews.index, name='index')
 ]

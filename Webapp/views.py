@@ -97,6 +97,7 @@ class StopPpmpService(APIView):
         return HttpResponse('success', "application/json")
 
 
+
 class ConfigGatewayProperties(APIView):
 
     def post(self, request):

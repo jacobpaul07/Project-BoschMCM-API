@@ -12,13 +12,12 @@ from App.Json_Class.COMProperties_dto import COMPORTProperties
 from App.Json_Class.SerialPortSetting_dto import SerialPortSettings
 import threading
 import App.globalsettings as appsetting
-
-# Initializing The StopThread as boolean-False
-stopThread: bool = False
-
 from App.Json_Class.COMPort_dto import Comport
 from App.Json_Class.index import read_setting
 from App.RTUReaders.modbusRtuReader import ReadRTU
+
+# Initializing The StopThread as boolean-False
+stopThread: bool = False
 
 
 def modbus_rtu():
@@ -30,9 +29,9 @@ def modbus_rtu():
         comport: Comport = getattr(data.edgedevice.DataCenter, com)
         serial_port_setting1 = comport.properties.SerialPortSetting
         comProperties: COMPORTProperties = comport.properties
-        if comport.properties.Enable == "True":
+        if comport.properties.Enable == "True" or comport.properties.Enable == "true":
             for dev in comport.devices:
-                if dev.properties.Enable == "True":
+                if dev.properties.Enable == "True" or dev.properties.Enable == "true":
                     # Declaring Threading count and failed attempts object
                     threadsCount = {
                         "count": 0,
@@ -42,7 +41,7 @@ def modbus_rtu():
                     # Initializing Threading
                     thread = threading.Thread(
                         target=ReadRTU,
-                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack,com))
+                        args=(serial_port_setting1, dev, comProperties, threadsCount, threadCallBack, com))
 
                     # Starting the Thread
                     thread.start()
@@ -60,7 +59,6 @@ def sentLiveData(data):
 
 # log definition
 def log(result):
-
     date = datetime.now().strftime("%Y_%m_%d")
     filename = f"log_{date}"
     filepath = './App/log/RTU/{}.json'.format(filename)
@@ -88,7 +86,6 @@ def threadCallBack(settings: SerialPortSettings,
                    success,
                    com):
     # Save the data to log file
-
     if appsetting.runWebSocket:
         sentLiveData(result)
 
@@ -112,7 +109,6 @@ def threadCallBack(settings: SerialPortSettings,
     # print(threadsCount["count"])
     # print("stop thread", stopThread)
 
-    # print(comProperties.ScanTimems)
     timeout = int(comProperties.ScanTimems) / 1000
     time.sleep(timeout)
     # print("Test==", appsetting.startRtuService)
@@ -121,7 +117,7 @@ def threadCallBack(settings: SerialPortSettings,
         # Initializing Threading
         thread = threading.Thread(
             target=ReadRTU,
-            args=(settings, ComDevices, comProperties, threadsCount, threadCallBack,com)
+            args=(settings, ComDevices, comProperties, threadsCount, threadCallBack, com)
         )
 
         # Starting the Thread

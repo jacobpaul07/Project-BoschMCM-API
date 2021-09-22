@@ -9,7 +9,9 @@ from App.Json_Class.index import read_setting
 from App.Post_to_Nexeed import Nexeedpost
 from App.GeneralUtilities import timestamp
 from App.TCPReaders.modbusTcpReader import ReadTCPSingleTag
+from App.RTUReaders.modbusRtuReader import ReadRTUSingleTag
 import App.globalsettings as appsetting
+
 
 data = read_setting()
 
@@ -17,11 +19,11 @@ data = read_setting()
 def start_ppmp_post():
     TCP_Measurements = []
     RTU_Measurements = []
-    if data.edgedevice.DataService.PPMP.Properties.Enable == "True":
+    Enable = data.edgedevice.DataService.PPMP.Properties.Enable
+
+    if Enable == "True" or Enable == "true":
         for channel in data.edgedevice.DataService.PPMP.Station:
-
-            if channel.Enable == "True":
-
+            if channel.Enable == "True" or channel.Enable == "true":
                 for measurement in channel.MeasurementTag:
                     if measurement.DeviceType == "COM1" or measurement.DeviceType == "COM2":
                         newData = read_RTU_Measurements(measurement.to_dict())
@@ -38,7 +40,6 @@ def start_ppmp_post():
 def completed_ppmp_post(channel: Stations, TCP_Measurements, RTU_Measurements):
     time.sleep(int(channel.UpdateTime))
     if appsetting.startPpmpService:
-
         thread = threading.Thread(target=read_ppmp_channels,
                                   args=[channel, TCP_Measurements, RTU_Measurements, completed_ppmp_post])
         thread.start()
@@ -51,24 +52,24 @@ def read_ppmp_channels(channel: Stations, TCP_Measurements, RTU_Measurements, ca
         newData = {"tagName": tcp_measure["tagName"]}
         finalData.append(newData)
 
-    # for rtu_measure in RTU_Measurements:
-    #     newData = {"tagName": rtu_measure["tagName"]}
-    #     finalData.append(newData)
+    for rtu_measure in RTU_Measurements:
+        newData = {"tagName": rtu_measure["tagName"]}
+        finalData.append(newData)
 
     for tcp_measure in TCP_Measurements:
         thread = threading.Thread(target=ReadTCPSingleTag, args=[tcp_measure, finalData])
         threads.append(thread)
         thread.start()
 
-    # for rtu_measure in RTU_Measurements:
-    #     thread = threading.Thread(target=ReadRTUSingleTag, args=[rtu_measure])
-    #     threads.append(thread)
-    #     thread.start()
+    for rtu_measure in RTU_Measurements:
+        thread = threading.Thread(target=ReadRTUSingleTag, args=[rtu_measure, finalData])
+        threads.append(thread)
+        thread.start()
 
     for thread in threads:
         thread.join()
 
-    # here we goes to final data sent to ppmp
+    # here we goes to final data sent to PPMP
     # print(finalData)
 
     complete_CallBack_Thread = threading.Thread(target=callback, args=[channel, TCP_Measurements, RTU_Measurements])
@@ -105,7 +106,7 @@ def read_RTU_Measurements(RTUMes):
     tagName = RTUMes["TagName"]
 
     port: Comport = data.edgedevice.DataCenter.__getattribute__(deviceType)
-
+    RTUMes["Enabled"] = port.properties.Enable
     RTUMes["Method"] = port.properties.SerialPortSetting.Method
     RTUMes["Port"] = port.properties.SerialPortSetting.Port
     RTUMes["Baud Rate"] = port.properties.SerialPortSetting.BaudRate
@@ -126,8 +127,10 @@ def read_RTU_Measurements(RTUMes):
 
 
 def sent_Data_To_Nexeed(finalData, station: Stations):
-    # sent data ti ppmp
     # PPMP Format to be sent to API
+    url: str = station.API
+    updateTime: int = int(station.UpdateTime)
+
     Nexeed_data = {
         "content-spec": data.edgedevice.DataService.PPMP.Properties.contentspec,
         "device": {
@@ -146,5 +149,5 @@ def sent_Data_To_Nexeed(finalData, station: Stations):
             tagName = sd["tagName"]
             tagValue = [sd["value"]]
             Nexeed_data["measurements"][0]["series"][tagName] = tagValue
-    print(Nexeed_data)
-    Nexeedpost(Nexeed_data)
+
+    Nexeedpost(Nexeed_data, url, updateTime)

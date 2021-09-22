@@ -1,6 +1,10 @@
 # Project-BoschMCM-API
 
-Run python manage.py runserver
+Run Command: 
+
+    pip install -r requirements.txt
+
+    python manage.py runserver
 
 ### API POST commands:
   1. To change IP and Port
@@ -24,7 +28,10 @@ Run python manage.py runserver
   7. To STOP ModbusRTU
 
     API: $ curl --data "" http://127.0.0.1:8000/api/stoprtu
-  8. To change the EdgeGateway Properties
+  8. To read the Device Settings
+    
+    API: $ curl --data "" http://127.0.0.1:8000/api/ReadDeviceSettings
+  9. To change the EdgeGateway Properties
      
     API: http://localhost:8000/api/changeDataCenterProperties
     BODY:
@@ -148,7 +155,57 @@ Run python manage.py runserver
             }
         ]
     }
-  12. To Start WebSocket 
+
+  12. To Change PPMP Properties 
+
+    API: http://localhost:8000/api/changeDataServiceProperties
+    BODY:
+    {
+    "mode": "update",
+    "deviceType": "PPMP",
+    "data": {
+        "Enable": "True",
+        "contentspec": "urn:spec://eclipse.org/unide/measurement-message#v3",
+        "timestamp": "2021-07-06T10:53:01.545Z"
+        }
+    }
+
+  13. To Change the PPM Station Settings:
+    
+    API: http://localhost:8000/api/changePpmpStations
+    BODY:
+    {
+    "service":"changePpmpStations",
+    "mode": "update",
+    "deviceType": "PPMP",
+    "StationID": "ST10",
+    "data": [
+        {
+        "Enable": "True",
+        "API": "https://demo.bosch-nexeed.com/cpm/ppm/v3/measurement",
+        "UpdateTime": "10",
+        "MeasurementTag": [
+            {
+                "TagName": "Temperature",
+                "TagValue": "10.0",
+                "Status": "updated",
+                "Device Name": "TCPdevice01",
+                "Device-Type": "TCP"
+            },
+            {
+                "TagName": "Pressure",
+                "TagValue": "11.0",
+                "Status": "ideal",
+                "Device Name": "TCPdevice01",
+                "Device-Type": "TCP"
+            }
+        ],
+        "StationID": "ST10",
+        "DeviceID": null
+        }
+    ]
+}
+  15. To Start WebSocket 
   
     API: $ curl --data "" http://127.0.0.1:8000/api/startWebSocket
     

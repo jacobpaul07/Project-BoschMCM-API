@@ -51,7 +51,7 @@
                         },
                         "IO Tags": [
                             {
-                                "Name": "Temperature",
+                                "Name": "COM-Temperature",
                                 "Signal Type": "AI Signal",
                                 "Conversion": "IEEE Float Point",
                                 "Address": "6",
@@ -118,7 +118,7 @@
                             "Name": "COM1-Device-02",
                             "Device Type": "Modbus RTU",
                             "Device Model": "ADAM4017",
-                            "Unit Number": "2",
+                            "Unit Number": "3",
                             "Description": "Slave 2",
                             "Add device name as prefix to IO Tag": "Enable",
                             "Extention Properties": {
@@ -348,7 +348,7 @@
             },
             "TCP": {
                 "properties": {
-                    "Enable": "false",
+                    "Enable": "True",
                     "Type": "TCP",
                     "Name": "ADAM-6017",
                     "Description": "TCP Channel-ADAM6017",
@@ -360,7 +360,7 @@
                 "devices": [
                     {
                         "properties": {
-                            "Enable": "true",
+                            "Enable": "True",
                             "Name": "TCPdevice01",
                             "Device Type": "Modbus TCP",
                             "Device Model": "ADAM6017",
@@ -496,7 +496,7 @@
         "DataService": {
             "PPMP": {
                 "Properties": {
-                    "Enable": "fALSE",
+                    "Enable": "True",
                     "contentspec": "urn:spec://eclipse.org/unide/measurement-message#v3",
                     "timestamp": "2021-07-06T10:53:01.545Z"
                 },
@@ -545,6 +545,29 @@
                             }
                         ],
                         "StationID": "ST11",
+                        "DeviceID": null
+                    },
+                    {
+                        "Enable": "False",
+                        "API": "https://demo.bosch-nexeed.com/cpm/ppm/v3/measurement",
+                        "UpdateTime": "30",
+                        "MeasurementTag": [
+                            {
+                                "TagName": "Temperature",
+                                "TagValue": "10.0",
+                                "Status": "updated",
+                                "Device Name": "TCPdevice01",
+                                "Device-Type": "TCP"
+                            },
+                            {
+                                "TagName": "Pressure",
+                                "TagValue": "11.0",
+                                "Status": "ideal",
+                                "Device Name": "TCPdevice01",
+                                "Device-Type": "TCP"
+                            }
+                        ],
+                        "StationID": "ST12",
                         "DeviceID": null
                     }
                 ]
