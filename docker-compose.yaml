@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  backend:
+    image: "mcm-api:dev3"
+    ports:
+      - "8000:8000"
+    depends_on: 
+      - redis
+    networks:
+      static-network:
+        ipv4_address: 172.20.0.3
+    restart: always
+
+  frontend:
+    image: "siqsessjacob/mcm-ui:latest"
+    ports:
+      - "3000:3000"
+    depends_on: 
+      - backend
+    networks:
+      static-network:
+        ipv4_address: 172.20.0.5
+    restart: always
+
+  redis:
+    image: "redis:5"
+    ports:
+      - "6379:6379"
+    networks:
+      static-network:
+        ipv4_address: 172.20.0.4
+    restart: always
+
+networks:
+  static-network:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

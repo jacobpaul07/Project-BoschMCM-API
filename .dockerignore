@@ -1,0 +1,11 @@
+# comment
+*/Env*
+*/venv*
+*/*/__pycache__*
+*/__pycache__*
+*/*/.idea*
+*/.idea*
+Env
+venv
+.idea
+.git
